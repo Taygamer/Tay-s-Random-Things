@@ -9,20 +9,215 @@
       "metadata": {
         "files": []
       }
+    },
+    {
+      "name": "VolcurrenIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "volcurren_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/tays/item/VolcurrenIngotItem.java",
+          "src/main/resources/assets/tays/models/item/volcurren_ingot.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "GamefoolsAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gamefools_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tays/models/item/gamefools_axe.json",
+          "src/main/java/net/mcreator/tays/item/GamefoolsAxeItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "Gamefool",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gamefool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/tays/entity/GamefoolEntity.java",
+          "src/main/java/net/mcreator/tays/client/renderer/GamefoolRenderer.java",
+          "src/main/resources/assets/tays/models/item/gamefool_spawn_egg.json"
+        ]
+      },
+      "path": "~/Entites"
+    },
+    {
+      "name": "GamefoolTotemRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gamefool_totem_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/tays/procedures/GamefoolTotemRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "GamefoolTotem",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gamefool_totem",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tays/models/item/gamefool_totem.json",
+          "src/main/java/net/mcreator/tays/item/GamefoolTotemItem.java"
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "GamefoolEntityDies",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gamefool_entity_dies",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/tays/procedures/GamefoolEntityDiesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "GamefoolOnInitialEntitySpawn",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gamefool_on_initial_entity_spawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/tays/procedures/GamefoolOnInitialEntitySpawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "GamefoolsAxeToolInHandTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gamefools_axe_tool_in_hand_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/tays/procedures/GamefoolsAxeToolInHandTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
-  "tag_elements": {},
+  "tag_elements": {
+    "ITEMS:minecraft:axes": [
+      "~CUSTOM:GamefoolsAxe"
+    ]
+  },
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "item_group.tays.tays_random_things": "Tays Random Things"
+      "item.tays.gamefool_spawn_egg": "AGamefool Spawn Egg",
+      "entity.tays.gamefool": "AGamefool",
+      "item.tays.gamefool_totem": "Gamefool Totem",
+      "item_group.tays.tays_random_things": "Tays Random Things",
+      "item.tays.gamefools_axe": "AGamefools Axe",
+      "item.tays.volcurren_ingot": "Volcaran Ingot"
     }
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "Procedures",
+        "children": []
+      },
+      {
+        "name": "Items",
+        "children": []
+      },
+      {
+        "name": "Entites",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "tays",

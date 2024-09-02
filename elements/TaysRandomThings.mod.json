@@ -4,7 +4,7 @@
   "definition": {
     "name": "Tays Random Things",
     "icon": {
-      "value": "Blocks.CALIBRATED_SCULK_SENSOR"
+      "value": "CUSTOM:GamefoolsAxe"
     },
     "showSearch": false
   }

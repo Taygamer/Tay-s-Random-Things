@@ -1,0 +1,45 @@
+{
+  "_fv": 66,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Axe",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "gamefoolsaxe",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "AGamefools Axe",
+    "specialInformation": {
+      "fixedValue": [
+        "Forged In The Ever Lasting of Volcurren",
+        ""
+      ]
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:TaysRandomThings"
+      }
+    ],
+    "efficiency": 7.0,
+    "attackSpeed": 0.6,
+    "enchantability": 15,
+    "damageVsEntity": 14.0,
+    "usageCount": 15000,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:VolcurrenIngot"
+      }
+    ],
+    "immuneToFire": true,
+    "blockDropsTier": "NETHERITE",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onItemInUseTick": {
+      "name": "GamefoolsAxeToolInHandTick"
+    }
+  }
+}
