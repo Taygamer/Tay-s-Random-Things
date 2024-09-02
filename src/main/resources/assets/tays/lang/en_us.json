@@ -1,8 +1,12 @@
 {
   "item.tays.gamefool_spawn_egg": "AGamefool Spawn Egg",
   "entity.tays.gamefool": "AGamefool",
+  "item.tays.flop_totem": "Flop Totem",
+  "item.tays.flopster_spawn_egg": "Flopster Spawn Egg",
+  "entity.tays.flopster": "Flopster",
   "item.tays.gamefool_totem": "Gamefool Totem",
   "item_group.tays.tays_random_things": "Tays Random Things",
   "item.tays.gamefools_axe": "AGamefools Axe",
+  "item.tays.flopsters_scythe": "Flopsters Scythe",
   "item.tays.volcurren_ingot": "Volcaran Ingot"
 }

@@ -1,0 +1,47 @@
+{
+  "_fv": 66,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "flopscythe",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Flopsters Scythe",
+    "specialInformation": {
+      "fixedValue": [
+        "A Scythe Made From Ancient Crystals"
+      ]
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:TaysRandomThings"
+      }
+    ],
+    "efficiency": 11.0,
+    "attackSpeed": 1.6,
+    "enchantability": 2,
+    "damageVsEntity": 15.4,
+    "usageCount": 16000,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      {
+        "value": "Items.DIAMOND"
+      }
+    ],
+    "immuneToFire": true,
+    "blockDropsTier": "NETHERITE",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "FlopstersScytheRightclicked"
+    },
+    "onItemInUseTick": {
+      "name": "GamefoolsAxeToolInHandTick"
+    }
+  }
+}

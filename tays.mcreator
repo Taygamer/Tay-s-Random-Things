@@ -100,7 +100,7 @@
           "src/main/java/net/mcreator/tays/item/GamefoolTotemItem.java"
         ]
       },
-      "path": "~/Procedures"
+      "path": "~/Items"
     },
     {
       "name": "GamefoolEntityDies",
@@ -182,6 +182,138 @@
         ]
       },
       "path": "~/Procedures"
+    },
+    {
+      "name": "FlopstersScythe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flopsters_scythe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/tays/item/FlopstersScytheItem.java",
+          "src/main/resources/assets/tays/models/item/flopsters_scythe.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "Flopster",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flopster",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/tays/client/renderer/FlopsterRenderer.java",
+          "src/main/java/net/mcreator/tays/entity/FlopsterEntity.java",
+          "src/main/resources/assets/tays/models/item/flopster_spawn_egg.json"
+        ]
+      },
+      "path": "~/Entites"
+    },
+    {
+      "name": "FlopTotem",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flop_totem",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/tays/item/FlopTotemItem.java",
+          "src/main/resources/assets/tays/models/item/flop_totem.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "FlopTotemRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flop_totem_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/tays/procedures/FlopTotemRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "FlopstersScytheRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flopsters_scythe_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/tays/procedures/FlopstersScytheRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "FlopsterEntityIsHurt",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flopster_entity_is_hurt",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/tays/procedures/FlopsterEntityIsHurtProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
     }
   ],
   "variable_elements": [],
@@ -189,6 +321,9 @@
   "tag_elements": {
     "ITEMS:minecraft:axes": [
       "~CUSTOM:GamefoolsAxe"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:FlopstersScythe"
     ]
   },
   "tab_element_order": {},
@@ -196,9 +331,13 @@
     "en_us": {
       "item.tays.gamefool_spawn_egg": "AGamefool Spawn Egg",
       "entity.tays.gamefool": "AGamefool",
+      "item.tays.flop_totem": "Flop Totem",
+      "item.tays.flopster_spawn_egg": "Flopster Spawn Egg",
+      "entity.tays.flopster": "Flopster",
       "item.tays.gamefool_totem": "Gamefool Totem",
       "item_group.tays.tays_random_things": "Tays Random Things",
       "item.tays.gamefools_axe": "AGamefools Axe",
+      "item.tays.flopsters_scythe": "Flopsters Scythe",
       "item.tays.volcurren_ingot": "Volcaran Ingot"
     }
   },

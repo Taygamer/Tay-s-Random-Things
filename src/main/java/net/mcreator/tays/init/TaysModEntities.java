@@ -17,6 +17,7 @@ import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
 import net.mcreator.tays.entity.GamefoolEntity;
+import net.mcreator.tays.entity.FlopsterEntity;
 import net.mcreator.tays.TaysMod;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
@@ -24,6 +25,8 @@ public class TaysModEntities {
 	public static final DeferredRegister<EntityType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.ENTITY_TYPES, TaysMod.MODID);
 	public static final RegistryObject<EntityType<GamefoolEntity>> GAMEFOOL = register("gamefool",
 			EntityType.Builder.<GamefoolEntity>of(GamefoolEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(GamefoolEntity::new).fireImmune().sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<FlopsterEntity>> FLOPSTER = register("flopster",
+			EntityType.Builder.<FlopsterEntity>of(FlopsterEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(500).setUpdateInterval(3).setCustomClientFactory(FlopsterEntity::new).fireImmune().sized(0.6f, 1.8f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -33,11 +36,13 @@ public class TaysModEntities {
 	public static void init(FMLCommonSetupEvent event) {
 		event.enqueueWork(() -> {
 			GamefoolEntity.init();
+			FlopsterEntity.init();
 		});
 	}
 
 	@SubscribeEvent
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
 		event.put(GAMEFOOL.get(), GamefoolEntity.createAttributes().build());
+		event.put(FLOPSTER.get(), FlopsterEntity.createAttributes().build());
 	}
 }

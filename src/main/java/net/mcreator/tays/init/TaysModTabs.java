@@ -21,6 +21,8 @@ public class TaysModTabs {
 				tabData.accept(TaysModItems.VOLCURREN_INGOT.get());
 				tabData.accept(TaysModItems.GAMEFOOLS_AXE.get());
 				tabData.accept(TaysModItems.GAMEFOOL_TOTEM.get());
+				tabData.accept(TaysModItems.FLOPSTERS_SCYTHE.get());
+				tabData.accept(TaysModItems.FLOP_TOTEM.get());
 			})
 
 					.build());
