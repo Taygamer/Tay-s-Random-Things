@@ -9,6 +9,6 @@ public class HydrofoolAxeRightclickedProcedure {
 		if (entity == null)
 			return;
 		if (world instanceof Level _level && !_level.isClientSide())
-			_level.explode(null, (entity.getX()), (entity.getY()), (entity.getZ()), 4, Level.ExplosionInteraction.NONE);
+			_level.explode(null, (entity.getX()), (entity.getY()), (entity.getZ()), 2, Level.ExplosionInteraction.NONE);
 	}
 }

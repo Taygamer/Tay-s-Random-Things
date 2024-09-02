@@ -259,7 +259,7 @@
           }
         ]
       },
-      "path": "~/Items"
+      "path": "~/Procedures"
     },
     {
       "name": "FlopstersScytheRightclicked",
@@ -282,7 +282,7 @@
           }
         ]
       },
-      "path": "~/Items"
+      "path": "~/Procedures"
     },
     {
       "name": "FlopsterEntityIsHurt",
@@ -421,7 +421,7 @@
           }
         ]
       },
-      "path": "~/Items"
+      "path": "~/Procedures"
     },
     {
       "name": "HydrofoolAxe",
