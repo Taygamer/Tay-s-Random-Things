@@ -1,11 +1,24 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "TaysRandomThings",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tays_random_things",
+      "metadata": {
+        "files": []
+      }
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {},
   "tab_element_order": {},
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item_group.tays.tays_random_things": "Tays Random Things"
+    }
   },
   "foldersRoot": {
     "name": "~",

@@ -1,0 +1,11 @@
+{
+  "_fv": 66,
+  "_type": "tab",
+  "definition": {
+    "name": "Tays Random Things",
+    "icon": {
+      "value": "Blocks.CALIBRATED_SCULK_SENSOR"
+    },
+    "showSearch": false
+  }
+}
