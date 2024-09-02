@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bcb",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "b": {
+      "item": "tays:lithium"
+    },
+    "c": {
+      "item": "minecraft:nether_star"
+    }
+  },
+  "result": {
+    "item": "tays:gamefool_totem",
+    "count": 1
+  }
+}

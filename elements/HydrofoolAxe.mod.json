@@ -5,25 +5,22 @@
     "toolType": "Axe",
     "renderType": 0,
     "blockingRenderType": 0,
-    "texture": "gamfoolsaxe",
+    "texture": "lithuiumaxe",
     "customModelName": "Normal",
     "blockingModelName": "Normal blocking",
-    "name": "AGamefools Axe",
+    "name": "Hydrofool Axe",
     "specialInformation": {
-      "fixedValue": [
-        "Forged In The Ever Lasting of Volcurren",
-        ""
-      ]
+      "fixedValue": []
     },
     "creativeTabs": [
       {
-        "value": "CUSTOM:TaysRandomThings"
+        "value": "TOOLS"
       }
     ],
-    "efficiency": 7.0,
-    "attackSpeed": 0.6,
+    "efficiency": 7.5,
+    "attackSpeed": 0.7,
     "enchantability": 15,
-    "damageVsEntity": 14.0,
+    "damageVsEntity": 14.5,
     "usageCount": 15000,
     "glowCondition": {
       "fixedValue": false
@@ -31,6 +28,9 @@
     "repairItems": [
       {
         "value": "CUSTOM:VolcurrenIngot"
+      },
+      {
+        "value": "CUSTOM:Lithium"
       }
     ],
     "immuneToFire": true,
@@ -38,8 +38,8 @@
     "blocksAffected": [],
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
-    "onItemInUseTick": {
-      "name": "GamefoolsAxeToolInHandTick"
+    "onRightClickedInAir": {
+      "name": "HydrofoolAxeRightclicked"
     }
   }
 }

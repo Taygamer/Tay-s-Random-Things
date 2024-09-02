@@ -12,6 +12,9 @@ import net.minecraftforge.common.ForgeSpawnEggItem;
 import net.minecraft.world.item.Item;
 
 import net.mcreator.tays.item.VolcurrenIngotItem;
+import net.mcreator.tays.item.LithiumItem;
+import net.mcreator.tays.item.HydrophobicTemplateItem;
+import net.mcreator.tays.item.HydrofoolAxeItem;
 import net.mcreator.tays.item.GamefoolsAxeItem;
 import net.mcreator.tays.item.GamefoolTotemItem;
 import net.mcreator.tays.item.FlopstersScytheItem;
@@ -27,6 +30,9 @@ public class TaysModItems {
 	public static final RegistryObject<Item> FLOPSTERS_SCYTHE = REGISTRY.register("flopsters_scythe", () -> new FlopstersScytheItem());
 	public static final RegistryObject<Item> FLOPSTER_SPAWN_EGG = REGISTRY.register("flopster_spawn_egg", () -> new ForgeSpawnEggItem(TaysModEntities.FLOPSTER, -6749953, -65281, new Item.Properties()));
 	public static final RegistryObject<Item> FLOP_TOTEM = REGISTRY.register("flop_totem", () -> new FlopTotemItem());
+	public static final RegistryObject<Item> LITHIUM = REGISTRY.register("lithium", () -> new LithiumItem());
+	public static final RegistryObject<Item> HYDROPHOBIC_TEMPLATE = REGISTRY.register("hydrophobic_template", () -> new HydrophobicTemplateItem());
+	public static final RegistryObject<Item> HYDROFOOL_AXE = REGISTRY.register("hydrofool_axe", () -> new HydrofoolAxeItem());
 	// Start of user code block custom items
 	// End of user code block custom items
 }

@@ -1,0 +1,16 @@
+{
+  "_fv": 66,
+  "_type": "villagerprofession",
+  "definition": {
+    "displayName": "Lithuium Dealer",
+    "pointOfInterest": {
+      "value": "Blocks.FURNACE"
+    },
+    "actionSound": {
+      "value": "block.ancient_debris.place"
+    },
+    "hat": "None",
+    "professionTextureFile": "4cb94dad85c2fdf9.png",
+    "zombifiedProfessionTextureFile": "7e4415908b17cb77.png"
+  }
+}

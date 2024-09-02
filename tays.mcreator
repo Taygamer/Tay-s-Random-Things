@@ -314,12 +314,174 @@
         ]
       },
       "path": "~/Procedures"
+    },
+    {
+      "name": "LithiumPropertyValueProvider",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lithium_property_value_provider",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/tays/procedures/LithiumPropertyValueProviderProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "Lithium",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lithium",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tays/models/item/lithium.json",
+          "src/main/java/net/mcreator/tays/item/LithiumItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "LithuiumDealer",
+      "type": "villagerprofession",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lithuium_dealer",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "HydrophobicTemplate",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hydrophobic_template",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/tays/item/HydrophobicTemplateItem.java",
+          "src/main/resources/assets/tays/models/item/hydrophobic_template.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "Lithuium",
+      "type": "villagertrade",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lithuium",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "HydrofoolAxeRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hydrofool_axe_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/tays/procedures/HydrofoolAxeRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "HydrofoolAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hydrofool_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/tays/item/HydrofoolAxeItem.java",
+          "src/main/resources/assets/tays/models/item/hydrofool_axe.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "Lithuiumaxe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lithuiumaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tays/recipes/lithuiumaxe.json"
+        ]
+      },
+      "path": "~/Crafting"
+    },
+    {
+      "name": "Gamefooltotemcraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gamefooltotemcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tays/recipes/gamefooltotemcraft.json"
+        ]
+      },
+      "path": "~/Crafting"
+    },
+    {
+      "name": "Floptotemrecipie",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "floptotemrecipie",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tays/recipes/floptotemrecipie.json"
+        ]
+      },
+      "path": "~/Crafting"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {
     "ITEMS:minecraft:axes": [
+      "~CUSTOM:HydrofoolAxe",
       "~CUSTOM:GamefoolsAxe"
     ],
     "ITEMS:minecraft:swords": [
@@ -330,14 +492,18 @@
   "language_map": {
     "en_us": {
       "item.tays.gamefool_spawn_egg": "AGamefool Spawn Egg",
+      "entity.tays.flopster": "Flopster",
+      "item.tays.lithium": "Lithium",
+      "item.tays.hydrofool_axe": "Hydrofool Axe",
+      "entity.minecraft.villager.tays.lithuium_dealer": "Lithuium Dealer",
       "entity.tays.gamefool": "AGamefool",
       "item.tays.flop_totem": "Flop Totem",
       "item.tays.flopster_spawn_egg": "Flopster Spawn Egg",
-      "entity.tays.flopster": "Flopster",
       "item.tays.gamefool_totem": "Gamefool Totem",
-      "item_group.tays.tays_random_things": "Tays Random Things",
       "item.tays.gamefools_axe": "AGamefools Axe",
+      "item_group.tays.tays_random_things": "Tays Random Things",
       "item.tays.flopsters_scythe": "Flopsters Scythe",
+      "item.tays.hydrophobic_template": "Hydrophobic Template",
       "item.tays.volcurren_ingot": "Volcaran Ingot"
     }
   },
@@ -354,6 +520,10 @@
       },
       {
         "name": "Entites",
+        "children": []
+      },
+      {
+        "name": "Crafting",
         "children": []
       }
     ]

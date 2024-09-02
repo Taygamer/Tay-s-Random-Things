@@ -17,6 +17,7 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.tays.init.TaysModVillagerProfessions;
 import net.mcreator.tays.init.TaysModTabs;
 import net.mcreator.tays.init.TaysModItems;
 import net.mcreator.tays.init.TaysModEntities;
@@ -45,6 +46,8 @@ public class TaysMod {
 		TaysModEntities.REGISTRY.register(bus);
 
 		TaysModTabs.REGISTRY.register(bus);
+
+		TaysModVillagerProfessions.PROFESSIONS.register(bus);
 
 		// Start of user code block mod init
 		// End of user code block mod init
