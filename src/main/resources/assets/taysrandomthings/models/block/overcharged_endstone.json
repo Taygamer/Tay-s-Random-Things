@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "taysrandomthings:block/image1",
+    "up": "taysrandomthings:block/image0",
+    "north": "taysrandomthings:block/image1",
+    "east": "taysrandomthings:block/image1",
+    "south": "taysrandomthings:block/image1",
+    "west": "taysrandomthings:block/image0",
+    "particle": "taysrandomthings:block/image1"
+  },
+  "render_type": "solid"
+}

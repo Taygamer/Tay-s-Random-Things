@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:end_crystal"
+    },
+    "b": {
+      "item": "taysrandomthings:overcharged_endstone"
+    },
+    "c": {
+      "item": "minecraft:crying_obsidian"
+    },
+    "d": {
+      "item": "taysrandomthings:enraged_ancient_crystal"
+    }
+  },
+  "result": {
+    "item": "taysrandomthings:ender_crystal",
+    "count": 1
+  }
+}

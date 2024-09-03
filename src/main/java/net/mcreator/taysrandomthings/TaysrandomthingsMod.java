@@ -22,6 +22,7 @@ import net.mcreator.taysrandomthings.init.TaysrandomthingsModTabs;
 import net.mcreator.taysrandomthings.init.TaysrandomthingsModSounds;
 import net.mcreator.taysrandomthings.init.TaysrandomthingsModItems;
 import net.mcreator.taysrandomthings.init.TaysrandomthingsModEntities;
+import net.mcreator.taysrandomthings.init.TaysrandomthingsModBlocks;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -43,6 +44,7 @@ public class TaysrandomthingsMod {
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 		TaysrandomthingsModSounds.REGISTRY.register(bus);
+		TaysrandomthingsModBlocks.REGISTRY.register(bus);
 
 		TaysrandomthingsModItems.REGISTRY.register(bus);
 		TaysrandomthingsModEntities.REGISTRY.register(bus);

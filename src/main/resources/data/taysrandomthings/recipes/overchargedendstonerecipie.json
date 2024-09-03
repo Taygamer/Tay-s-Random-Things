@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aea"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:end_crystal"
+    },
+    "b": {
+      "item": "minecraft:ender_eye"
+    },
+    "c": {
+      "item": "minecraft:experience_bottle"
+    },
+    "d": {
+      "item": "minecraft:end_stone"
+    },
+    "e": {
+      "item": "minecraft:redstone_block"
+    }
+  },
+  "result": {
+    "item": "taysrandomthings:overcharged_endstone",
+    "count": 1
+  }
+}

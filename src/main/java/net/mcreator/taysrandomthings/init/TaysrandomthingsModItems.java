@@ -9,7 +9,9 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.common.ForgeSpawnEggItem;
 
+import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.taysrandomthings.item.VolcurrenIngotItem;
 import net.mcreator.taysrandomthings.item.LithiumItem;
@@ -22,6 +24,7 @@ import net.mcreator.taysrandomthings.item.FlopTotemItem;
 import net.mcreator.taysrandomthings.item.EnragedtemplateItem;
 import net.mcreator.taysrandomthings.item.EnragedscytheItem;
 import net.mcreator.taysrandomthings.item.EnragedAncientCrystalItem;
+import net.mcreator.taysrandomthings.item.EnderCrystalItem;
 import net.mcreator.taysrandomthings.item.CompoundVItem;
 import net.mcreator.taysrandomthings.TaysrandomthingsMod;
 
@@ -41,6 +44,12 @@ public class TaysrandomthingsModItems {
 	public static final RegistryObject<Item> ENRAGEDTEMPLATE = REGISTRY.register("enragedtemplate", () -> new EnragedtemplateItem());
 	public static final RegistryObject<Item> ENRAGEDSCYTHE = REGISTRY.register("enragedscythe", () -> new EnragedscytheItem());
 	public static final RegistryObject<Item> COMPOUND_V = REGISTRY.register("compound_v", () -> new CompoundVItem());
+	public static final RegistryObject<Item> OVERCHARGED_ENDSTONE = block(TaysrandomthingsModBlocks.OVERCHARGED_ENDSTONE);
+	public static final RegistryObject<Item> ENDER_CRYSTAL = REGISTRY.register("ender_crystal", () -> new EnderCrystalItem());
+
 	// Start of user code block custom items
 	// End of user code block custom items
+	private static RegistryObject<Item> block(RegistryObject<Block> block) {
+		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
+	}
 }

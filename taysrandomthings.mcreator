@@ -748,6 +748,117 @@
         ]
       },
       "path": "~/Crafting"
+    },
+    {
+      "name": "OverchargedEndstoneOnTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "overcharged_endstone_on_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/taysrandomthings/procedures/OverchargedEndstoneOnTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "OverchargedEndstone",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "overcharged_endstone",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/taysrandomthings/loot_tables/blocks/overcharged_endstone.json",
+          "src/main/resources/assets/taysrandomthings/models/block/overcharged_endstone.json",
+          "src/main/resources/assets/taysrandomthings/blockstates/overcharged_endstone.json",
+          "src/main/java/net/mcreator/taysrandomthings/block/OverchargedEndstoneBlock.java",
+          "src/main/resources/assets/taysrandomthings/models/item/overcharged_endstone.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Overchargedendstonerecipie",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "overchargedendstonerecipie",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/taysrandomthings/recipes/overchargedendstonerecipie.json"
+        ]
+      },
+      "path": "~/Crafting"
+    },
+    {
+      "name": "EnderCrystalItemInHandTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ender_crystal_item_in_hand_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/taysrandomthings/procedures/EnderCrystalItemInHandTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "EnderCrystal",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ender_crystal",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/taysrandomthings/models/item/ender_crystal.json",
+          "src/main/java/net/mcreator/taysrandomthings/item/EnderCrystalItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "EndercrystalRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endercrystal_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/taysrandomthings/recipes/endercrystal_recipe.json"
+        ]
+      },
+      "path": "~/Crafting"
     }
   ],
   "variable_elements": [],
@@ -774,18 +885,20 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "item.tays.gamefool_spawn_egg": "AGamefool Spawn Egg",
       "item.taysrandomthings.volcurren_ingot": "Volcaran Ingot",
+      "item.tays.gamefool_spawn_egg": "AGamefool Spawn Egg",
+      "block.taysrandomthings.overcharged_endstone": "Overcharged Endstone",
       "entity.tays.flopster": "Flopster",
       "entity.minecraft.villager.taysrandomthings.lithuium_dealer": "Lithuium Dealer",
       "item.tays.lithium": "Lithium",
-      "entity.minecraft.villager.tays.lithuium_dealer": "Lithuium Dealer",
       "advancements.agamefooltotemachieve.descr": "Obtain The Agamefool Totem",
-      "item.taysrandomthings.hydrophobic_template": "Hydrophobic Template",
+      "entity.minecraft.villager.tays.lithuium_dealer": "Lithuium Dealer",
       "advancements.icantstopicantstop.descr": "Drink Compound V and Die from it",
+      "item.taysrandomthings.hydrophobic_template": "Hydrophobic Template",
       "entity.taysrandomthings.gamefool": "AGamefool",
       "advancements.icantstopicantstop.title": "I CANT STOP ICANT STOP",
       "item.taysrandomthings.enragedscythe": "Enraged Scythe",
+      "item.taysrandomthings.ender_crystal": "Ender Crystal",
       "item.taysrandomthings.gamefool_spawn_egg": "AGamefool Spawn Egg",
       "item.taysrandomthings.flopsters_scythe": "Flopsters Scythe",
       "item.taysrandomthings.flop_totem": "Flop Totem",
@@ -842,6 +955,10 @@
       },
       {
         "name": "Advancements",
+        "children": []
+      },
+      {
+        "name": "Blocks",
         "children": []
       }
     ]

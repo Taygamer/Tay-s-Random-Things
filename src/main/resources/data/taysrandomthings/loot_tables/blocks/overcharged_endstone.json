@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "taysrandomthings:blocks/overcharged_endstone",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "taysrandomthings:overcharged_endstone"
+        }
+      ]
+    }
+  ]
+}
