@@ -672,6 +672,53 @@
         ]
       },
       "path": "~/Items"
+    },
+    {
+      "name": "EnragedScytheRecipie",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enraged_scythe_recipie",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/taysrandomthings/recipes/enraged_scythe_recipie.json"
+        ]
+      },
+      "path": "~/Crafting"
+    },
+    {
+      "name": "ICANTSTOPICANTSTOP",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "icantstopicantstop",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/taysrandomthings/advancements/icantstopicantstop.json"
+        ]
+      }
+    },
+    {
+      "name": "ICANTSTOP",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "icantstop",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/taysrandomthings/procedures/ICANTSTOPProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -697,8 +744,10 @@
       "entity.minecraft.villager.tays.lithuium_dealer": "Lithuium Dealer",
       "advancements.agamefooltotemachieve.descr": "Obtain The Agamefool Totem",
       "item.taysrandomthings.hydrophobic_template": "Hydrophobic Template",
+      "advancements.icantstopicantstop.descr": "Drink Compound V and Die from it",
       "entity.taysrandomthings.gamefool": "AGamefool",
-      "item.taysrandomthings.enragedscythe": "Enragedscythe",
+      "advancements.icantstopicantstop.title": "I CANT STOP ICANT STOP",
+      "item.taysrandomthings.enragedscythe": "Enraged Scythe",
       "item.taysrandomthings.gamefool_spawn_egg": "AGamefool Spawn Egg",
       "item.taysrandomthings.flopsters_scythe": "Flopsters Scythe",
       "item.taysrandomthings.flop_totem": "Flop Totem",

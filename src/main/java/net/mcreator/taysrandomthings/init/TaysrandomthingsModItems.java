@@ -22,6 +22,7 @@ import net.mcreator.taysrandomthings.item.FlopTotemItem;
 import net.mcreator.taysrandomthings.item.EnragedtemplateItem;
 import net.mcreator.taysrandomthings.item.EnragedscytheItem;
 import net.mcreator.taysrandomthings.item.EnragedAncientCrystalItem;
+import net.mcreator.taysrandomthings.item.CompoundVItem;
 import net.mcreator.taysrandomthings.TaysrandomthingsMod;
 
 public class TaysrandomthingsModItems {
@@ -39,6 +40,7 @@ public class TaysrandomthingsModItems {
 	public static final RegistryObject<Item> ENRAGED_ANCIENT_CRYSTAL = REGISTRY.register("enraged_ancient_crystal", () -> new EnragedAncientCrystalItem());
 	public static final RegistryObject<Item> ENRAGEDTEMPLATE = REGISTRY.register("enragedtemplate", () -> new EnragedtemplateItem());
 	public static final RegistryObject<Item> ENRAGEDSCYTHE = REGISTRY.register("enragedscythe", () -> new EnragedscytheItem());
+	public static final RegistryObject<Item> COMPOUND_V = REGISTRY.register("compound_v", () -> new CompoundVItem());
 	// Start of user code block custom items
 	// End of user code block custom items
 }

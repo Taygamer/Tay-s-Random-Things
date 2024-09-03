@@ -1,0 +1,28 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smithing",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smithingInputStack": {
+      "value": "CUSTOM:Enragedtemplate"
+    },
+    "smithingInputAdditionStack": {
+      "value": "CUSTOM:VolcurrenIngot"
+    },
+    "smithingInputTemplateStack": {
+      "value": "CUSTOM:FlopstersScythe"
+    },
+    "smithingReturnStack": {
+      "value": "CUSTOM:Enragedscythe"
+    },
+    "name": "enraged_scythe_recipie",
+    "namespace": "mod"
+  }
+}
