@@ -751,7 +751,16 @@
     }
   ],
   "variable_elements": [],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "heartbeat",
+      "files": [
+        "29715__glaneur-de-sons__heart-beat"
+      ],
+      "category": "master",
+      "subtitle": "The Sounds of A Heartbeat"
+    }
+  ],
   "tag_elements": {
     "ITEMS:minecraft:axes": [
       "~CUSTOM:HydrofoolAxe",
@@ -796,6 +805,7 @@
       "entity.tays.gamefool": "AGamefool",
       "advancements.agamefooltotemachieve.title": "The Call of The forger",
       "advancements.the_volcurren_weapon.title": "The Volcurren\u0027s Special Weapon",
+      "subtitles.heartbeat": "The Sounds of A Heartbeat",
       "item.tays.flop_totem": "Flop Totem",
       "item_group.taysrandomthings.tays_random_things": "Tays Random Things",
       "item.taysrandomthings.enragedtemplate": "Enraged Template",

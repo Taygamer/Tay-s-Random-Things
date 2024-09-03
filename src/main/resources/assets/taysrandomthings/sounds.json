@@ -1,0 +1,11 @@
+{
+  "heartbeat": {
+    "subtitle": "subtitles.heartbeat",
+    "sounds": [
+      {
+        "name": "taysrandomthings:29715__glaneur-de-sons__heart-beat",
+        "stream": false
+      }
+    ]
+  }
+}
