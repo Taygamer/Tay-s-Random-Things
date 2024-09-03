@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "taysrandomthings:enragedscythe"
+    },
+    "title": {
+      "translate": "advancements.the_demon_harvster.title"
+    },
+    "description": {
+      "translate": "advancements.the_demon_harvster.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "the_demon_harvster_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "taysrandomthings:enragedscythe"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100
+  },
+  "parent": "taysrandomthings:encased"
+}

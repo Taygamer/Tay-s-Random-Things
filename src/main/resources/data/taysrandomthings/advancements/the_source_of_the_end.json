@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "taysrandomthings:ender_crystal"
+    },
+    "title": {
+      "translate": "advancements.the_source_of_the_end.title"
+    },
+    "description": {
+      "translate": "advancements.the_source_of_the_end.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "the_source_of_the_end_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "taysrandomthings:ender_crystal"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1000
+  },
+  "parent": "taysrandomthings:end_power"
+}
