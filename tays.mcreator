@@ -696,7 +696,8 @@
         "files": [
           "src/main/resources/data/taysrandomthings/advancements/icantstopicantstop.json"
         ]
-      }
+      },
+      "path": "~/Advancements"
     },
     {
       "name": "ICANTSTOP",
@@ -718,7 +719,35 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "CompoundV",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "compound_v",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/taysrandomthings/item/CompoundVItem.java",
+          "src/main/resources/assets/taysrandomthings/models/item/compound_v.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "CompoundVrecipie",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "compound_vrecipie",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/taysrandomthings/recipes/compound_vrecipie.json"
+        ]
+      },
+      "path": "~/Crafting"
     }
   ],
   "variable_elements": [],
@@ -754,6 +783,7 @@
       "item_group.tays.tays_random_things": "Tays Random Things",
       "item.tays.flopsters_scythe": "Flopsters Scythe",
       "item.taysrandomthings.lithium": "Lithium",
+      "item.taysrandomthings.compound_v": "Compound V",
       "item.tays.hydrofool_axe": "Hydrofool Axe",
       "item.taysrandomthings.enraged_ancient_crystal": "Enraged Ancient Crystal",
       "advancements.the_volcurren_weapon.descr": "Kill Agamefool And Obtain His Battle Axe",

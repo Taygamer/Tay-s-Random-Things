@@ -19,6 +19,6 @@ public class EnragedscytheToolInHandTickProcedure {
 		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 			_entity.addEffect(new MobEffectInstance(MobEffects.HEALTH_BOOST, 60, 1));
 		if (world instanceof ServerLevel _level)
-			_level.sendParticles(ParticleTypes.DRIPPING_LAVA, x, y, z, 10, 5, 0.5, 0.5, 2);
+			_level.sendParticles(ParticleTypes.DRIPPING_LAVA, x, y, z, 10, 0.5, 0.5, 0.5, 2);
 	}
 }

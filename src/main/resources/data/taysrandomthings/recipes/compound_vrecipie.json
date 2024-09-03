@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "cec"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:totem_of_undying"
+    },
+    "b": {
+      "item": "minecraft:potion"
+    },
+    "c": {
+      "item": "taysrandomthings:lithium"
+    },
+    "d": {
+      "item": "minecraft:sculk_catalyst"
+    },
+    "e": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "item": "taysrandomthings:compound_v",
+    "count": 1
+  }
+}

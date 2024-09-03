@@ -735,6 +735,19 @@
         ]
       },
       "path": "~/Items"
+    },
+    {
+      "name": "CompoundVrecipie",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "compound_vrecipie",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/taysrandomthings/recipes/compound_vrecipie.json"
+        ]
+      },
+      "path": "~/Crafting"
     }
   ],
   "variable_elements": [],
