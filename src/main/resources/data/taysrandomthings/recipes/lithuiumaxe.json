@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "taysrandomthings:gamefools_axe"
+  },
+  "base": {
+    "item": "taysrandomthings:lithium"
+  },
+  "addition": {
+    "item": "taysrandomthings:hydrophobic_template"
+  },
+  "result": {
+    "item": "taysrandomthings:hydrofool_axe"
+  }
+}

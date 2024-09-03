@@ -5,40 +5,41 @@
     "toolType": "Sword",
     "renderType": 0,
     "blockingRenderType": 0,
-    "texture": "flopscythe",
+    "texture": "enragedscythe",
     "customModelName": "Normal",
     "blockingModelName": "Normal blocking",
-    "name": "Flopsters Scythe",
+    "name": "Enragedscythe",
     "specialInformation": {
-      "fixedValue": [
-        "A Scythe Made From Ancient Crystals"
-      ]
+      "fixedValue": []
     },
     "creativeTabs": [
       {
-        "value": "CUSTOM:TaysRandomThings"
+        "value": "TOOLS"
       }
     ],
-    "efficiency": 11.0,
-    "attackSpeed": 1.6,
-    "enchantability": 15,
-    "damageVsEntity": 15.4,
+    "efficiency": 11.5,
+    "attackSpeed": 2.0,
+    "enchantability": 20,
+    "damageVsEntity": 16.5,
     "usageCount": 16000,
     "glowCondition": {
       "fixedValue": false
     },
     "repairItems": [
       {
-        "value": "Items.DIAMOND"
+        "value": "CUSTOM:EnragedAncientCrystal"
+      },
+      {
+        "value": "CUSTOM:VolcurrenIngot"
       }
     ],
-    "immuneToFire": true,
+    "immuneToFire": false,
     "blockDropsTier": "NETHERITE",
     "blocksAffected": [],
     "stayInGridWhenCrafting": false,
-    "damageOnCrafting": false,
+    "damageOnCrafting": true,
     "onItemInUseTick": {
-      "name": "GamefoolsAxeToolInHandTick"
+      "name": "EnragedscytheToolInHandTick"
     }
   }
 }

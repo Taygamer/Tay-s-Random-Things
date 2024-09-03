@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abb",
+    "bb "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "b": {
+      "item": "minecraft:netherite_scrap"
+    }
+  },
+  "result": {
+    "item": "taysrandomthings:volcurren_ingot",
+    "count": 1
+  }
+}

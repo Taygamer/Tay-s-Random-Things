@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bcb",
+    "dbd"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:redstone_block"
+    },
+    "b": {
+      "item": "taysrandomthings:volcurren_ingot"
+    },
+    "c": {
+      "item": "taysrandomthings:flop_totem"
+    },
+    "d": {
+      "item": "taysrandomthings:lithium"
+    }
+  },
+  "result": {
+    "item": "taysrandomthings:enraged_ancient_crystal",
+    "count": 1
+  }
+}

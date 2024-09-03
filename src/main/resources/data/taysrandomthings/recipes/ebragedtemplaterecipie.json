@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "adc",
+    " e "
+  ],
+  "key": {
+    "a": {
+      "item": "taysrandomthings:lithium"
+    },
+    "b": {
+      "item": "taysrandomthings:hydrophobic_template"
+    },
+    "c": {
+      "item": "minecraft:netherite_scrap"
+    },
+    "d": {
+      "item": "taysrandomthings:enraged_ancient_crystal"
+    },
+    "e": {
+      "item": "taysrandomthings:volcurren_ingot"
+    }
+  },
+  "result": {
+    "item": "taysrandomthings:enragedtemplate",
+    "count": 1
+  }
+}
