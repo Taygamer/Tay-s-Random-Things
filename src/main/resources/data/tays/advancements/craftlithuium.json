@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "tays:hydrophobic_template"
+    },
+    "title": {
+      "translate": "advancements.craftlithuium.title"
+    },
+    "description": {
+      "translate": "advancements.craftlithuium.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "craftlithuium_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tays:hydrophobic_template"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 5
+  },
+  "parent": "tays:a_white_powdery_substance"
+}
