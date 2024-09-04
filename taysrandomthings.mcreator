@@ -1061,6 +1061,102 @@
         ]
       },
       "path": "~/Crafting"
+    },
+    {
+      "name": "EndAxeToolInHandTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_axe_tool_in_hand_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/taysrandomthings/procedures/EndAxeToolInHandTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "EndAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/taysrandomthings/models/item/end_axe.json",
+          "src/main/java/net/mcreator/taysrandomthings/item/EndAxeItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "SuperVPlayerFinishesUsingItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "super_v_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/taysrandomthings/procedures/SuperVPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "SuperV",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "super_v",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/taysrandomthings/models/item/super_v.json",
+          "src/main/java/net/mcreator/taysrandomthings/item/SuperVItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "How",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "how",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/taysrandomthings/advancements/how.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "TheForgeGod",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_forge_god",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/taysrandomthings/advancements/the_forge_god.json"
+        ]
+      },
+      "path": "~/Advancements"
     }
   ],
   "variable_elements": [],
@@ -1076,6 +1172,7 @@
   ],
   "tag_elements": {
     "ITEMS:minecraft:axes": [
+      "~CUSTOM:EndAxe",
       "~CUSTOM:HydrofoolAxe",
       "~CUSTOM:GamefoolsAxe"
     ],
@@ -1091,7 +1188,9 @@
       "item.tays.gamefool_spawn_egg": "AGamefool Spawn Egg",
       "block.taysrandomthings.overcharged_endstone": "Overcharged Endstone",
       "advancements.go_flop.descr": "Obtain the Flopster Totem",
+      "advancements.how.descr": "How did u obtain this",
       "item.tays.lithium": "Lithium",
+      "item.taysrandomthings.end_axe": "End Axe",
       "advancements.icantstopicantstop.descr": "Drink Compound V and Die from it",
       "item.taysrandomthings.hydrophobic_template": "Hydrophobic Template",
       "entity.taysrandomthings.gamefool": "AGamefool",
@@ -1106,18 +1205,21 @@
       "item.tays.flopsters_scythe": "Flopsters Scythe",
       "advancements.the_volcurren_weapon.descr": "Kill Agamefool And Obtain His Battle Axe",
       "item.taysrandomthings.gamefools_axe": "AGamefools Axe",
+      "advancements.the_forge_god.descr": "Obtain A End Weapon ",
       "advancements.encased.descr": "Obtain the Agressive Template",
       "advancements.a_white_powdery_substance.descr": "It aint Meth from my understanding ",
       "advancements.lithuiumise.descr": "Lithiumise The Battle Axe",
       "item.taysrandomthings.flopster_spawn_egg": "Flopster Spawn Egg",
       "advancements.the_demon_harvster.descr": "It hold the Power of Thousands of Demons",
       "advancements.the_source_of_the_end.descr": "Obtain The Ender Crystal",
+      "advancements.how.title": "How?",
       "advancements.agamefooltotemachieve.title": "The Call of The forger",
       "subtitles.heartbeat": "The Sounds of A Heartbeat",
       "item_group.taysrandomthings.tays_random_things": "Tays Random Things",
       "advancements.agressive_crystal.title": "Agressive Crystal",
       "item.tays.gamefool_totem": "Gamefool Totem",
       "item.tays.gamefools_axe": "AGamefools Axe",
+      "item.taysrandomthings.super_v": "Super V",
       "advancements.craftlithuium.title": "Craft it Lithuium Edition",
       "entity.taysrandomthings.flopster": "Flopster",
       "item.tays.volcurren_ingot": "Volcaran Ingot",
@@ -1140,6 +1242,7 @@
       "advancements.end_power.descr": "Obtain Overcharged Endstone",
       "item.taysrandomthings.end_scythe": "Ender Scythe",
       "item.taysrandomthings.gamefool_totem": "Gamefool Totem",
+      "advancements.the_forge_god.title": "The End God",
       "advancements.the_source_of_the_end.title": "The Source Of The End",
       "advancements.craftlithuium.descr": "Obtain the Hydrophobic Template",
       "entity.tays.gamefool": "AGamefool",

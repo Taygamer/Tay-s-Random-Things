@@ -1,27 +1,27 @@
 {
   "display": {
     "icon": {
-      "item": "taysrandomthings:compound_v"
+      "item": "taysrandomthings:super_v"
     },
     "title": {
-      "translate": "advancements.icantstopicantstop.title"
+      "translate": "advancements.how.title"
     },
     "description": {
-      "translate": "advancements.icantstopicantstop.descr"
+      "translate": "advancements.how.descr"
     },
-    "frame": "task",
+    "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
   "criteria": {
-    "icantstopicantstop_0": {
+    "how_0": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:air"
+              "taysrandomthings:super_v"
             ],
             "count": {
               "min": 1,
@@ -31,9 +31,6 @@
         ]
       }
     }
-  },
-  "rewards": {
-    "experience": 500
   },
   "parent": "taysrandomthings:go_fast"
 }

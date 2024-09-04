@@ -1,0 +1,51 @@
+{
+  "_fv": 66,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Axe",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "endaxe",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "End Axe",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:TaysRandomThings"
+      }
+    ],
+    "efficiency": 10.0,
+    "attackSpeed": 1.0,
+    "enchantability": 25,
+    "damageVsEntity": 18.0,
+    "usageCount": 18000,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:EnderCrystal"
+      },
+      {
+        "value": "CUSTOM:VolcurrenIngot"
+      },
+      {
+        "value": "CUSTOM:OverchargedEndstone"
+      }
+    ],
+    "immuneToFire": true,
+    "blockDropsTier": "NETHERITE",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "EndScytheRightclicked"
+    },
+    "onItemInUseTick": {
+      "name": "EndAxeToolInHandTick"
+    }
+  }
+}

@@ -14,6 +14,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.taysrandomthings.item.VolcurrenIngotItem;
+import net.mcreator.taysrandomthings.item.SuperVItem;
 import net.mcreator.taysrandomthings.item.LithiumItem;
 import net.mcreator.taysrandomthings.item.HydrophobicTemplateItem;
 import net.mcreator.taysrandomthings.item.HydrofoolAxeItem;
@@ -26,6 +27,7 @@ import net.mcreator.taysrandomthings.item.EnragedscytheItem;
 import net.mcreator.taysrandomthings.item.EnragedAncientCrystalItem;
 import net.mcreator.taysrandomthings.item.EnderCrystalItem;
 import net.mcreator.taysrandomthings.item.EndScytheItem;
+import net.mcreator.taysrandomthings.item.EndAxeItem;
 import net.mcreator.taysrandomthings.item.CompoundVItem;
 import net.mcreator.taysrandomthings.TaysrandomthingsMod;
 
@@ -48,6 +50,8 @@ public class TaysrandomthingsModItems {
 	public static final RegistryObject<Item> OVERCHARGED_ENDSTONE = block(TaysrandomthingsModBlocks.OVERCHARGED_ENDSTONE);
 	public static final RegistryObject<Item> ENDER_CRYSTAL = REGISTRY.register("ender_crystal", () -> new EnderCrystalItem());
 	public static final RegistryObject<Item> END_SCYTHE = REGISTRY.register("end_scythe", () -> new EndScytheItem());
+	public static final RegistryObject<Item> END_AXE = REGISTRY.register("end_axe", () -> new EndAxeItem());
+	public static final RegistryObject<Item> SUPER_V = REGISTRY.register("super_v", () -> new SuperVItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

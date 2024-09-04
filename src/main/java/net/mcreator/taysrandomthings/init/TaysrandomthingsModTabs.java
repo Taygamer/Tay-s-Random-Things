@@ -33,6 +33,8 @@ public class TaysrandomthingsModTabs {
 				tabData.accept(TaysrandomthingsModBlocks.OVERCHARGED_ENDSTONE.get().asItem());
 				tabData.accept(TaysrandomthingsModItems.ENDER_CRYSTAL.get());
 				tabData.accept(TaysrandomthingsModItems.END_SCYTHE.get());
+				tabData.accept(TaysrandomthingsModItems.END_AXE.get());
+				tabData.accept(TaysrandomthingsModItems.SUPER_V.get());
 			})
 
 					.build());
