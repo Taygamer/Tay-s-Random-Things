@@ -14,6 +14,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.taysrandomthings.item.VolcurrenIngotItem;
+import net.mcreator.taysrandomthings.item.VolcurrenArmorItem;
 import net.mcreator.taysrandomthings.item.SuperVItem;
 import net.mcreator.taysrandomthings.item.LithiumItem;
 import net.mcreator.taysrandomthings.item.HydrophobicTemplateItem;
@@ -52,6 +53,10 @@ public class TaysrandomthingsModItems {
 	public static final RegistryObject<Item> END_SCYTHE = REGISTRY.register("end_scythe", () -> new EndScytheItem());
 	public static final RegistryObject<Item> END_AXE = REGISTRY.register("end_axe", () -> new EndAxeItem());
 	public static final RegistryObject<Item> SUPER_V = REGISTRY.register("super_v", () -> new SuperVItem());
+	public static final RegistryObject<Item> VOLCURREN_ARMOR_HELMET = REGISTRY.register("volcurren_armor_helmet", () -> new VolcurrenArmorItem.Helmet());
+	public static final RegistryObject<Item> VOLCURREN_ARMOR_CHESTPLATE = REGISTRY.register("volcurren_armor_chestplate", () -> new VolcurrenArmorItem.Chestplate());
+	public static final RegistryObject<Item> VOLCURREN_ARMOR_LEGGINGS = REGISTRY.register("volcurren_armor_leggings", () -> new VolcurrenArmorItem.Leggings());
+	public static final RegistryObject<Item> VOLCURREN_ARMOR_BOOTS = REGISTRY.register("volcurren_armor_boots", () -> new VolcurrenArmorItem.Boots());
 
 	// Start of user code block custom items
 	// End of user code block custom items

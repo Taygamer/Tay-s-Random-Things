@@ -35,6 +35,10 @@ public class TaysrandomthingsModTabs {
 				tabData.accept(TaysrandomthingsModItems.END_SCYTHE.get());
 				tabData.accept(TaysrandomthingsModItems.END_AXE.get());
 				tabData.accept(TaysrandomthingsModItems.SUPER_V.get());
+				tabData.accept(TaysrandomthingsModItems.VOLCURREN_ARMOR_HELMET.get());
+				tabData.accept(TaysrandomthingsModItems.VOLCURREN_ARMOR_CHESTPLATE.get());
+				tabData.accept(TaysrandomthingsModItems.VOLCURREN_ARMOR_LEGGINGS.get());
+				tabData.accept(TaysrandomthingsModItems.VOLCURREN_ARMOR_BOOTS.get());
 			})
 
 					.build());

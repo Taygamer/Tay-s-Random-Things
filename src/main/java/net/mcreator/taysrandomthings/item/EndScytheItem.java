@@ -16,6 +16,7 @@ import net.minecraft.world.InteractionResult;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.network.chat.Component;
 
+import net.mcreator.taysrandomthings.procedures.EndScytheToolInInventoryTickProcedure;
 import net.mcreator.taysrandomthings.procedures.EndScytheToolInHandTickProcedure;
 import net.mcreator.taysrandomthings.procedures.EndScytheRightclickedProcedure;
 import net.mcreator.taysrandomthings.init.TaysrandomthingsModItems;
@@ -77,5 +78,6 @@ public class EndScytheItem extends SwordItem {
 		super.inventoryTick(itemstack, world, entity, slot, selected);
 		if (selected)
 			EndScytheToolInHandTickProcedure.execute(entity);
+		EndScytheToolInInventoryTickProcedure.execute(entity);
 	}
 }

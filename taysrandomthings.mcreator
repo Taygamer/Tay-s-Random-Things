@@ -1157,6 +1157,94 @@
         ]
       },
       "path": "~/Advancements"
+    },
+    {
+      "name": "VolcurrenArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "volcurren_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/taysrandomthings/models/item/volcurren_armor_leggings.json",
+          "src/main/resources/assets/taysrandomthings/models/item/volcurren_armor_chestplate.json",
+          "src/main/java/net/mcreator/taysrandomthings/item/VolcurrenArmorItem.java",
+          "src/main/resources/assets/taysrandomthings/models/item/volcurren_armor_helmet.json",
+          "src/main/resources/assets/taysrandomthings/models/item/volcurren_armor_boots.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "VolcurrenArmorHelmetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "volcurren_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/taysrandomthings/recipes/volcurren_armor_helmet_recipe.json"
+        ]
+      },
+      "path": "~/Crafting"
+    },
+    {
+      "name": "VolcurrenArmorChestplateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "volcurren_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/taysrandomthings/recipes/volcurren_armor_chestplate_recipe.json"
+        ]
+      },
+      "path": "~/Crafting"
+    },
+    {
+      "name": "VolcurrenArmorLeggingsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "volcurren_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/taysrandomthings/recipes/volcurren_armor_leggings_recipe.json"
+        ]
+      },
+      "path": "~/Crafting"
+    },
+    {
+      "name": "VolcurrenArmorBootsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "volcurren_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/taysrandomthings/recipes/volcurren_armor_boots_recipe.json"
+        ]
+      },
+      "path": "~/Crafting"
+    },
+    {
+      "name": "EndScytheToolInInventoryTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_scythe_tool_in_inventory_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/taysrandomthings/procedures/EndScytheToolInInventoryTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Items"
     }
   ],
   "variable_elements": [],
@@ -1185,14 +1273,14 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "block.taysrandomthings.overcharged_endstone": "Overcharged Endstone",
       "item.tays.gamefool_spawn_egg": "AGamefool Spawn Egg",
+      "block.taysrandomthings.overcharged_endstone": "Overcharged Endstone",
       "advancements.go_flop.descr": "Obtain the Flopster Totem",
       "advancements.how.descr": "How did u obtain this",
       "item.tays.lithium": "Lithium",
       "item.taysrandomthings.end_axe": "End Axe",
-      "item.taysrandomthings.hydrophobic_template": "Hydrophobic Template",
       "advancements.icantstopicantstop.descr": "Drink Compound V and Die from it",
+      "item.taysrandomthings.hydrophobic_template": "Hydrophobic Template",
       "entity.taysrandomthings.gamefool": "AGamefool",
       "advancements.icantstopicantstop.title": "I CANT STOP ICANT STOP",
       "advancements.end_power.title": "End Power",
@@ -1207,6 +1295,7 @@
       "item.taysrandomthings.gamefools_axe": "AGamefools Axe",
       "advancements.the_forge_god.descr": "Obtain A End Weapon ",
       "advancements.encased.descr": "Obtain the Agressive Template",
+      "item.taysrandomthings.volcurren_armor_leggings": "Volcurren Leggings",
       "advancements.a_white_powdery_substance.descr": "It aint Meth from my understanding ",
       "advancements.lithuiumise.descr": "Lithiumise The Battle Axe",
       "item.taysrandomthings.flopster_spawn_egg": "Flopster Spawn Egg",
@@ -1232,8 +1321,11 @@
       "advancements.the_ancient_weapon.descr": "Obtain Flopsters Scythe",
       "advancements.go_fast.descr": "Obtain Compound V",
       "advancements.the_ancient_weapon.title": "The Ancient Weapon",
+      "item.taysrandomthings.volcurren_armor_boots": "Volcurren Boots",
       "item.taysrandomthings.enragedscythe": "Enraged Scythe",
       "item.taysrandomthings.ender_crystal": "Ender Crystal",
+      "item.taysrandomthings.volcurren_armor_chestplate": "Volcurren Chestplate",
+      "item.taysrandomthings.volcurren_armor_helmet": "Volcurren Helmet",
       "item.taysrandomthings.lithium": "Lithium",
       "item.taysrandomthings.compound_v": "Compound V",
       "advancements.the_demon_harvster.title": "The Demon Harvster",

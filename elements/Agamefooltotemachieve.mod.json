@@ -5,7 +5,7 @@
     "achievementName": "The Call of The forger",
     "achievementDescription": "Obtain The Agamefool Totem",
     "achievementIcon": {
-      "value": "CUSTOM:GamefoolsAxe"
+      "value": "CUSTOM:GamefoolTotem"
     },
     "background": "Default",
     "disableDisplay": false,

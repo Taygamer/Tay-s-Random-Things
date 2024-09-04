@@ -5,7 +5,7 @@
     "achievementName": "The Volcurren's Special Weapon",
     "achievementDescription": "Kill Agamefool And Obtain His Battle Axe",
     "achievementIcon": {
-      "value": "CUSTOM:GamefoolTotem"
+      "value": "CUSTOM:GamefoolsAxe"
     },
     "background": "Default",
     "disableDisplay": false,

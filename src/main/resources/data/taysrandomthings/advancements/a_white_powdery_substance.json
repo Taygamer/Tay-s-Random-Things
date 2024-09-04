@@ -1,6 +1,5 @@
 {
   "display": {
-    "background": "minecraft:textures/block/stone.png",
     "icon": {
       "item": "taysrandomthings:lithium"
     },
@@ -32,5 +31,6 @@
         ]
       }
     }
-  }
+  },
+  "parent": "taysrandomthings:agamefooltotemachieve"
 }
