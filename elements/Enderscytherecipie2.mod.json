@@ -1,0 +1,28 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smithing",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smithingInputStack": {
+      "value": "CUSTOM:OverchargedEndstone"
+    },
+    "smithingInputAdditionStack": {
+      "value": "CUSTOM:EnderCrystal"
+    },
+    "smithingInputTemplateStack": {
+      "value": "CUSTOM:FlopstersScythe"
+    },
+    "smithingReturnStack": {
+      "value": "CUSTOM:EndScythe"
+    },
+    "name": "enderscytherecipie_2",
+    "namespace": "mod"
+  }
+}

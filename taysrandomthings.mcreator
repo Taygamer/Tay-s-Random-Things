@@ -949,7 +949,7 @@
           "src/main/resources/data/taysrandomthings/advancements/end_power.json"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Advancements"
     },
     {
       "name": "TheSourceOfTheEnd",
@@ -963,6 +963,104 @@
         ]
       },
       "path": "~/Advancements"
+    },
+    {
+      "name": "EndScytheRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_scythe_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/taysrandomthings/procedures/EndScytheRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "EndScytheToolInHandTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_scythe_tool_in_hand_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/taysrandomthings/procedures/EndScytheToolInHandTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "EndScythe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_scythe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/taysrandomthings/models/item/end_scythe.json",
+          "src/main/java/net/mcreator/taysrandomthings/item/EndScytheItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "Enderscytherecipie",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderscytherecipie",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/taysrandomthings/recipes/enderscytherecipie.json"
+        ]
+      },
+      "path": "~/Crafting"
+    },
+    {
+      "name": "Enderscytherecipie2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderscytherecipie_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/taysrandomthings/recipes/enderscytherecipie_2.json"
+        ]
+      },
+      "path": "~/Crafting"
     }
   ],
   "variable_elements": [],
@@ -982,6 +1080,7 @@
       "~CUSTOM:GamefoolsAxe"
     ],
     "ITEMS:minecraft:swords": [
+      "~CUSTOM:EndScythe",
       "~CUSTOM:Enragedscythe",
       "~CUSTOM:FlopstersScythe"
     ]
@@ -1039,6 +1138,7 @@
       "item.tays.hydrofool_axe": "Hydrofool Axe",
       "item.taysrandomthings.enraged_ancient_crystal": "Enraged Ancient Crystal",
       "advancements.end_power.descr": "Obtain Overcharged Endstone",
+      "item.taysrandomthings.end_scythe": "Ender Scythe",
       "item.taysrandomthings.gamefool_totem": "Gamefool Totem",
       "advancements.the_source_of_the_end.title": "The Source Of The End",
       "advancements.craftlithuium.descr": "Obtain the Hydrophobic Template",

@@ -41,7 +41,11 @@
     "resistance": 12.0,
     "hasGravity": false,
     "isWaterloggable": false,
-    "creativeTabs": [],
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:TaysRandomThings"
+      }
+    ],
     "destroyTool": "Not specified",
     "customDrop": {
       "value": ""

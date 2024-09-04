@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "taysrandomthings:flopsters_scythe"
+  },
+  "base": {
+    "item": "taysrandomthings:overcharged_endstone"
+  },
+  "addition": {
+    "item": "taysrandomthings:ender_crystal"
+  },
+  "result": {
+    "item": "taysrandomthings:end_scythe"
+  }
+}

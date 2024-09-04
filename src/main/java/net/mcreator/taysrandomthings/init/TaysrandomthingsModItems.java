@@ -25,6 +25,7 @@ import net.mcreator.taysrandomthings.item.EnragedtemplateItem;
 import net.mcreator.taysrandomthings.item.EnragedscytheItem;
 import net.mcreator.taysrandomthings.item.EnragedAncientCrystalItem;
 import net.mcreator.taysrandomthings.item.EnderCrystalItem;
+import net.mcreator.taysrandomthings.item.EndScytheItem;
 import net.mcreator.taysrandomthings.item.CompoundVItem;
 import net.mcreator.taysrandomthings.TaysrandomthingsMod;
 
@@ -46,6 +47,7 @@ public class TaysrandomthingsModItems {
 	public static final RegistryObject<Item> COMPOUND_V = REGISTRY.register("compound_v", () -> new CompoundVItem());
 	public static final RegistryObject<Item> OVERCHARGED_ENDSTONE = block(TaysrandomthingsModBlocks.OVERCHARGED_ENDSTONE);
 	public static final RegistryObject<Item> ENDER_CRYSTAL = REGISTRY.register("ender_crystal", () -> new EnderCrystalItem());
+	public static final RegistryObject<Item> END_SCYTHE = REGISTRY.register("end_scythe", () -> new EndScytheItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items
