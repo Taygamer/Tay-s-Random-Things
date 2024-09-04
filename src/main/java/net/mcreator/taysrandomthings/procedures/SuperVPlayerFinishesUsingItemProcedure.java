@@ -23,15 +23,15 @@ public class SuperVPlayerFinishesUsingItemProcedure {
 		if (entity == null)
 			return;
 		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-			_entity.addEffect(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 9999999999, 5));
+			_entity.addEffect(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 9999, 5));
 		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-			_entity.addEffect(new MobEffectInstance(MobEffects.HEALTH_BOOST, 9999999999, 5));
+			_entity.addEffect(new MobEffectInstance(MobEffects.HEALTH_BOOST, 9999, 5));
 		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-			_entity.addEffect(new MobEffectInstance(MobEffects.HEAL, 9999999999, 5));
+			_entity.addEffect(new MobEffectInstance(MobEffects.HEAL, 9999, 5));
 		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-			_entity.addEffect(new MobEffectInstance(MobEffects.GLOWING, 9999999999, 5));
+			_entity.addEffect(new MobEffectInstance(MobEffects.GLOWING, 9999, 5));
 		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-			_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 9999999999, 20));
+			_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 9999, 20));
 		if (world instanceof Level _level) {
 			if (!_level.isClientSide()) {
 				_level.playSound(null, BlockPos.containing(entity.getX(), entity.getY(), entity.getZ()), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("taysrandomthings:heartbeat")), SoundSource.PLAYERS, 1, 1);
@@ -54,7 +54,7 @@ public class SuperVPlayerFinishesUsingItemProcedure {
 			if (entity instanceof Player _player && !_player.level().isClientSide())
 				_player.displayClientMessage(Component.literal("Your Heart rate Starts to increase Rapidly"), true);
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-				_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 9999999999, 30));
+				_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 9999, 30));
 		});
 		TaysrandomthingsMod.queueServerWork(250, () -> {
 			if (world instanceof ServerLevel _level)
@@ -69,7 +69,7 @@ public class SuperVPlayerFinishesUsingItemProcedure {
 			if (entity instanceof Player _player && !_player.level().isClientSide())
 				_player.displayClientMessage(Component.literal("You Can't Stop"), true);
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-				_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 9999999999, 45));
+				_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 9999, 45));
 		});
 		TaysrandomthingsMod.queueServerWork(450, () -> {
 			if (world instanceof ServerLevel _level)
@@ -84,7 +84,7 @@ public class SuperVPlayerFinishesUsingItemProcedure {
 			if (entity instanceof Player _player && !_player.level().isClientSide())
 				_player.displayClientMessage(Component.literal("Your Heart starts to Stop Rapidly"), true);
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-				_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 9999999999, 80));
+				_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 9999, 80));
 		});
 		TaysrandomthingsMod.queueServerWork(500, () -> {
 			if (world instanceof ServerLevel _level)
@@ -97,7 +97,7 @@ public class SuperVPlayerFinishesUsingItemProcedure {
 				}
 			}
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-				_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 9999999999, 100));
+				_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 9999, 100));
 		});
 		TaysrandomthingsMod.queueServerWork(600, () -> {
 			if (world instanceof ServerLevel _level)
@@ -110,7 +110,7 @@ public class SuperVPlayerFinishesUsingItemProcedure {
 				}
 			}
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-				_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 9999999999, 100));
+				_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 9999, 100));
 		});
 		TaysrandomthingsMod.queueServerWork(700, () -> {
 			if (world instanceof ServerLevel _level)
@@ -123,7 +123,7 @@ public class SuperVPlayerFinishesUsingItemProcedure {
 				}
 			}
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-				_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 9999999999, 200));
+				_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 9999, 200));
 		});
 		TaysrandomthingsMod.queueServerWork(800, () -> {
 			if (world instanceof ServerLevel _level)
@@ -136,7 +136,7 @@ public class SuperVPlayerFinishesUsingItemProcedure {
 				}
 			}
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-				_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 9999999999, 300));
+				_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 9999, 300));
 		});
 		TaysrandomthingsMod.queueServerWork(900, () -> {
 			if (world instanceof ServerLevel _level)
@@ -149,7 +149,7 @@ public class SuperVPlayerFinishesUsingItemProcedure {
 				}
 			}
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-				_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 9999999999, 400));
+				_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 9999, 400));
 		});
 		TaysrandomthingsMod.queueServerWork(1000, () -> {
 			if (world instanceof ServerLevel _level)
@@ -162,7 +162,7 @@ public class SuperVPlayerFinishesUsingItemProcedure {
 				}
 			}
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-				_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 9999999999, 500));
+				_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 9999, 500));
 		});
 		TaysrandomthingsMod.queueServerWork(1200, () -> {
 			if (world instanceof ServerLevel _level)
@@ -175,7 +175,7 @@ public class SuperVPlayerFinishesUsingItemProcedure {
 				}
 			}
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-				_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 9999999999, 700));
+				_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 9999, 700));
 		});
 		TaysrandomthingsMod.queueServerWork(1400, () -> {
 			if (world instanceof ServerLevel _level)
@@ -188,7 +188,7 @@ public class SuperVPlayerFinishesUsingItemProcedure {
 				}
 			}
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-				_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 9999999999, 900));
+				_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 9999, 900));
 		});
 		TaysrandomthingsMod.queueServerWork(1600, () -> {
 			if (world instanceof ServerLevel _level)
@@ -201,7 +201,7 @@ public class SuperVPlayerFinishesUsingItemProcedure {
 				}
 			}
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-				_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 9999999999, 1100));
+				_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 9999, 1100));
 		});
 		TaysrandomthingsMod.queueServerWork(1800, () -> {
 			if (world instanceof ServerLevel _level)
@@ -214,7 +214,7 @@ public class SuperVPlayerFinishesUsingItemProcedure {
 				}
 			}
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-				_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 9999999999, 1300));
+				_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 9999, 1300));
 		});
 		TaysrandomthingsMod.queueServerWork(2000, () -> {
 			if (world instanceof ServerLevel _level)
@@ -227,7 +227,7 @@ public class SuperVPlayerFinishesUsingItemProcedure {
 				}
 			}
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-				_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 9999999999, 1500));
+				_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 9999, 1500));
 		});
 	}
 }
