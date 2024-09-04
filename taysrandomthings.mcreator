@@ -1245,6 +1245,20 @@
         ]
       },
       "path": "~/Items"
+    },
+    {
+      "name": "Tay",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tay",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/taysrandomthings/models/item/tay_spawn_egg.json",
+          "src/main/java/net/mcreator/taysrandomthings/entity/TayEntity.java",
+          "src/main/java/net/mcreator/taysrandomthings/client/renderer/TayRenderer.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -1275,6 +1289,7 @@
     "en_us": {
       "item.tays.gamefool_spawn_egg": "AGamefool Spawn Egg",
       "block.taysrandomthings.overcharged_endstone": "Overcharged Endstone",
+      "item.taysrandomthings.tay_spawn_egg": "Tay Spawn Egg",
       "advancements.go_flop.descr": "Obtain the Flopster Totem",
       "advancements.how.descr": "How did u obtain this",
       "item.tays.lithium": "Lithium",
@@ -1314,6 +1329,7 @@
       "item.tays.volcurren_ingot": "Volcaran Ingot",
       "item.taysrandomthings.volcurren_ingot": "Volcaran Ingot",
       "entity.tays.flopster": "Flopster",
+      "entity.taysrandomthings.tay": "Tay",
       "entity.minecraft.villager.taysrandomthings.lithuium_dealer": "Lithuium Dealer",
       "advancements.agamefooltotemachieve.descr": "Obtain The Agamefool Totem",
       "entity.minecraft.villager.tays.lithuium_dealer": "Lithuium Dealer",

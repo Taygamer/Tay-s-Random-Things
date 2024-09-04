@@ -9,6 +9,7 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.client.event.EntityRenderersEvent;
 import net.minecraftforge.api.distmarker.Dist;
 
+import net.mcreator.taysrandomthings.client.renderer.TayRenderer;
 import net.mcreator.taysrandomthings.client.renderer.GamefoolRenderer;
 import net.mcreator.taysrandomthings.client.renderer.FlopsterRenderer;
 
@@ -18,5 +19,6 @@ public class TaysrandomthingsModEntityRenderers {
 	public static void registerEntityRenderers(EntityRenderersEvent.RegisterRenderers event) {
 		event.registerEntityRenderer(TaysrandomthingsModEntities.GAMEFOOL.get(), GamefoolRenderer::new);
 		event.registerEntityRenderer(TaysrandomthingsModEntities.FLOPSTER.get(), FlopsterRenderer::new);
+		event.registerEntityRenderer(TaysrandomthingsModEntities.TAY.get(), TayRenderer::new);
 	}
 }

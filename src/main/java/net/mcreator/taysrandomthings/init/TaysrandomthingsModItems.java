@@ -57,6 +57,7 @@ public class TaysrandomthingsModItems {
 	public static final RegistryObject<Item> VOLCURREN_ARMOR_CHESTPLATE = REGISTRY.register("volcurren_armor_chestplate", () -> new VolcurrenArmorItem.Chestplate());
 	public static final RegistryObject<Item> VOLCURREN_ARMOR_LEGGINGS = REGISTRY.register("volcurren_armor_leggings", () -> new VolcurrenArmorItem.Leggings());
 	public static final RegistryObject<Item> VOLCURREN_ARMOR_BOOTS = REGISTRY.register("volcurren_armor_boots", () -> new VolcurrenArmorItem.Boots());
+	public static final RegistryObject<Item> TAY_SPAWN_EGG = REGISTRY.register("tay_spawn_egg", () -> new ForgeSpawnEggItem(TaysrandomthingsModEntities.TAY, -1, -1, new Item.Properties()));
 
 	// Start of user code block custom items
 	// End of user code block custom items

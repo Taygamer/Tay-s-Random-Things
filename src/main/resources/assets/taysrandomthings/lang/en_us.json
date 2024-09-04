@@ -1,6 +1,7 @@
 {
   "item.tays.gamefool_spawn_egg": "AGamefool Spawn Egg",
   "block.taysrandomthings.overcharged_endstone": "Overcharged Endstone",
+  "item.taysrandomthings.tay_spawn_egg": "Tay Spawn Egg",
   "advancements.go_flop.descr": "Obtain the Flopster Totem",
   "advancements.how.descr": "How did u obtain this",
   "item.tays.lithium": "Lithium",
@@ -40,6 +41,7 @@
   "item.tays.volcurren_ingot": "Volcaran Ingot",
   "item.taysrandomthings.volcurren_ingot": "Volcaran Ingot",
   "entity.tays.flopster": "Flopster",
+  "entity.taysrandomthings.tay": "Tay",
   "entity.minecraft.villager.taysrandomthings.lithuium_dealer": "Lithuium Dealer",
   "advancements.agamefooltotemachieve.descr": "Obtain The Agamefool Totem",
   "entity.minecraft.villager.tays.lithuium_dealer": "Lithuium Dealer",
