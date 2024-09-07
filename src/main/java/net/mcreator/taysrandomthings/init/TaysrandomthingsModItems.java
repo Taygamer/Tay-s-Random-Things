@@ -30,6 +30,7 @@ import net.mcreator.taysrandomthings.item.EnderCrystalItem;
 import net.mcreator.taysrandomthings.item.EndScytheItem;
 import net.mcreator.taysrandomthings.item.EndAxeItem;
 import net.mcreator.taysrandomthings.item.CompoundVItem;
+import net.mcreator.taysrandomthings.item.Amethyst_ArmourArmorItem;
 import net.mcreator.taysrandomthings.TaysrandomthingsMod;
 
 public class TaysrandomthingsModItems {
@@ -57,7 +58,11 @@ public class TaysrandomthingsModItems {
 	public static final RegistryObject<Item> VOLCURREN_ARMOR_CHESTPLATE = REGISTRY.register("volcurren_armor_chestplate", () -> new VolcurrenArmorItem.Chestplate());
 	public static final RegistryObject<Item> VOLCURREN_ARMOR_LEGGINGS = REGISTRY.register("volcurren_armor_leggings", () -> new VolcurrenArmorItem.Leggings());
 	public static final RegistryObject<Item> VOLCURREN_ARMOR_BOOTS = REGISTRY.register("volcurren_armor_boots", () -> new VolcurrenArmorItem.Boots());
-	public static final RegistryObject<Item> TAY_SPAWN_EGG = REGISTRY.register("tay_spawn_egg", () -> new ForgeSpawnEggItem(TaysrandomthingsModEntities.TAY, -1, -1, new Item.Properties()));
+	public static final RegistryObject<Item> TAY_SPAWN_EGG = REGISTRY.register("tay_spawn_egg", () -> new ForgeSpawnEggItem(TaysrandomthingsModEntities.TAY, -6750055, -16711681, new Item.Properties()));
+	public static final RegistryObject<Item> AMETHYST_ARMOUR_ARMOR_HELMET = REGISTRY.register("amethyst_armour_armor_helmet", () -> new Amethyst_ArmourArmorItem.Helmet());
+	public static final RegistryObject<Item> AMETHYST_ARMOUR_ARMOR_CHESTPLATE = REGISTRY.register("amethyst_armour_armor_chestplate", () -> new Amethyst_ArmourArmorItem.Chestplate());
+	public static final RegistryObject<Item> AMETHYST_ARMOUR_ARMOR_LEGGINGS = REGISTRY.register("amethyst_armour_armor_leggings", () -> new Amethyst_ArmourArmorItem.Leggings());
+	public static final RegistryObject<Item> AMETHYST_ARMOUR_ARMOR_BOOTS = REGISTRY.register("amethyst_armour_armor_boots", () -> new Amethyst_ArmourArmorItem.Boots());
 
 	// Start of user code block custom items
 	// End of user code block custom items

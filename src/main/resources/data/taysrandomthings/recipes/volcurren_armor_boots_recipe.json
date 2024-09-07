@@ -1,17 +1,15 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "equipment",
-  "pattern": [
-    "a a",
-    "a a"
-  ],
-  "key": {
-    "a": {
-      "item": "taysrandomthings:volcurren_ingot"
-    }
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "minecraft:netherite_boots"
+  },
+  "base": {
+    "item": "taysrandomthings:volcurren_ingot"
+  },
+  "addition": {
+    "item": "minecraft:netherite_upgrade_smithing_template"
   },
   "result": {
-    "item": "taysrandomthings:volcurren_armor_boots",
-    "count": 1
+    "item": "taysrandomthings:volcurren_armor_boots"
   }
 }

@@ -2,7 +2,7 @@
   "_fv": 66,
   "_type": "recipe",
   "definition": {
-    "recipeType": "Crafting",
+    "recipeType": "Smithing",
     "recipeRetstackSize": 1,
     "group": "",
     "cookingBookCategory": "MISC",
@@ -10,36 +10,16 @@
     "cookingTime": 200,
     "craftingBookCategory": "EQUIPMENT",
     "recipeShapeless": false,
-    "recipeSlots": [
-      {
-        "value": "CUSTOM:VolcurrenIngot"
-      },
-      {
-        "value": "CUSTOM:VolcurrenIngot"
-      },
-      {
-        "value": "CUSTOM:VolcurrenIngot"
-      },
-      {
-        "value": "CUSTOM:VolcurrenIngot"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:VolcurrenIngot"
-      },
-      {
-        "value": "CUSTOM:VolcurrenIngot"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:VolcurrenIngot"
-      }
-    ],
-    "recipeReturnStack": {
+    "smithingInputStack": {
+      "value": "CUSTOM:VolcurrenIngot"
+    },
+    "smithingInputAdditionStack": {
+      "value": "Items.NETHERITE_UPGRADE"
+    },
+    "smithingInputTemplateStack": {
+      "value": "CUSTOM:VolcurrenArmor.legs"
+    },
+    "smithingReturnStack": {
       "value": "CUSTOM:VolcurrenArmor.legs"
     },
     "name": "volcurren_armor_leggings_recipe",
