@@ -6,6 +6,8 @@ import net.minecraftforge.network.PlayMessages;
 import net.minecraftforge.network.NetworkHooks;
 
 import net.minecraft.world.level.Level;
+import net.minecraft.world.item.Items;
+import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.projectile.ThrownPotion;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.monster.Monster;
@@ -20,8 +22,8 @@ import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
 import net.minecraft.world.entity.MobType;
 import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.EntityType;
-import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.AreaEffectCloud;
 import net.minecraft.world.damagesource.DamageTypes;
 import net.minecraft.world.damagesource.DamageSource;
@@ -33,11 +35,11 @@ import net.minecraft.network.protocol.game.ClientGamePacketListener;
 import net.minecraft.network.protocol.Packet;
 import net.minecraft.network.chat.Component;
 
-import net.mcreator.taysrandomthings.procedures.EndScytheToolInHandTickProcedure;
+import net.mcreator.taysrandomthings.init.TaysrandomthingsModItems;
 import net.mcreator.taysrandomthings.init.TaysrandomthingsModEntities;
 
 public class TayEntity extends Monster {
-	private final ServerBossEvent bossInfo = new ServerBossEvent(this.getDisplayName(), ServerBossEvent.BossBarColor.PURPLE, ServerBossEvent.BossBarOverlay.NOTCHED_6);
+	private final ServerBossEvent bossInfo = new ServerBossEvent(this.getDisplayName(), ServerBossEvent.BossBarColor.PURPLE, ServerBossEvent.BossBarOverlay.NOTCHED_10);
 
 	public TayEntity(PlayMessages.SpawnEntity packet, Level world) {
 		this(TaysrandomthingsModEntities.TAY.get(), world);
@@ -51,6 +53,11 @@ public class TayEntity extends Monster {
 		setCustomName(Component.literal("Tay"));
 		setCustomNameVisible(true);
 		setPersistenceRequired();
+		this.setItemSlot(EquipmentSlot.MAINHAND, new ItemStack(TaysrandomthingsModItems.TAYS_SWORD.get()));
+		this.setItemSlot(EquipmentSlot.OFFHAND, new ItemStack(Items.SHIELD));
+		this.setItemSlot(EquipmentSlot.CHEST, new ItemStack(TaysrandomthingsModItems.VOLCURREN_ARMOR_CHESTPLATE.get()));
+		this.setItemSlot(EquipmentSlot.LEGS, new ItemStack(TaysrandomthingsModItems.VOLCURREN_ARMOR_LEGGINGS.get()));
+		this.setItemSlot(EquipmentSlot.FEET, new ItemStack(TaysrandomthingsModItems.VOLCURREN_ARMOR_BOOTS.get()));
 	}
 
 	@Override
@@ -89,6 +96,11 @@ public class TayEntity extends Monster {
 		return -0.35D;
 	}
 
+	protected void dropCustomDeathLoot(DamageSource source, int looting, boolean recentlyHitIn) {
+		super.dropCustomDeathLoot(source, looting, recentlyHitIn);
+		this.spawnAtLocation(new ItemStack(TaysrandomthingsModItems.TAYS_SWORD.get()));
+	}
+
 	@Override
 	public SoundEvent getHurtSound(DamageSource ds) {
 		return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.generic.hurt"));
@@ -101,15 +113,6 @@ public class TayEntity extends Monster {
 
 	@Override
 	public boolean hurt(DamageSource damagesource, float amount) {
-		double x = this.getX();
-		double y = this.getY();
-		double z = this.getZ();
-		Level world = this.level();
-		Entity entity = this;
-		Entity sourceentity = damagesource.getEntity();
-		Entity immediatesourceentity = damagesource.getDirectEntity();
-
-		EndScytheToolInHandTickProcedure.execute(entity);
 		if (damagesource.is(DamageTypes.IN_FIRE))
 			return false;
 		if (damagesource.getDirectEntity() instanceof ThrownPotion || damagesource.getDirectEntity() instanceof AreaEffectCloud)
@@ -120,10 +123,6 @@ public class TayEntity extends Monster {
 			return false;
 		if (damagesource.is(DamageTypes.DROWN))
 			return false;
-		if (damagesource.is(DamageTypes.LIGHTNING_BOLT))
-			return false;
-		if (damagesource.is(DamageTypes.EXPLOSION) || damagesource.is(DamageTypes.PLAYER_EXPLOSION))
-			return false;
 		if (damagesource.is(DamageTypes.TRIDENT))
 			return false;
 		if (damagesource.is(DamageTypes.FALLING_ANVIL))
@@ -133,11 +132,6 @@ public class TayEntity extends Monster {
 		if (damagesource.is(DamageTypes.WITHER) || damagesource.is(DamageTypes.WITHER_SKULL))
 			return false;
 		return super.hurt(damagesource, amount);
-	}
-
-	@Override
-	public boolean ignoreExplosion() {
-		return true;
 	}
 
 	@Override
