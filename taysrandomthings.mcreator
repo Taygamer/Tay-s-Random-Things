@@ -1385,6 +1385,68 @@
         ]
       },
       "path": "~/Items"
+    },
+    {
+      "name": "TayTotem",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tay_totem",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/taysrandomthings/models/item/tay_totem.json",
+          "src/main/java/net/mcreator/taysrandomthings/item/TayTotemItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "TayTotemRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tay_totem_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/taysrandomthings/procedures/TayTotemRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "Taytotemrecipie",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "taytotemrecipie",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/taysrandomthings/recipes/taytotemrecipie.json"
+        ]
+      },
+      "path": "~/Crafting"
     }
   ],
   "variable_elements": [],
@@ -1417,6 +1479,7 @@
       "item.tays.gamefool_spawn_egg": "AGamefool Spawn Egg",
       "block.taysrandomthings.overcharged_endstone": "Overcharged Endstone",
       "item.taysrandomthings.tay_spawn_egg": "Tay Spawn Egg",
+      "item.taysrandomthings.tay_totem": "Tay Totem",
       "advancements.go_flop.descr": "Obtain the Flopster Totem",
       "advancements.how.descr": "How did u obtain this",
       "item.tays.lithium": "Lithium",

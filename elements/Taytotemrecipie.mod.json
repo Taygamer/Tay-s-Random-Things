@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:EnragedAncientCrystal"
+      },
+      {
+        "value": "CUSTOM:OverchargedEndstone"
+      },
+      {
+        "value": "CUSTOM:Enragedtemplate"
+      },
+      {
+        "value": "CUSTOM:GamefoolTotem"
+      },
+      {
+        "value": "CUSTOM:EnderCrystal"
+      },
+      {
+        "value": "CUSTOM:FlopTotem"
+      },
+      {
+        "value": "CUSTOM:HydrophobicTemplate"
+      },
+      {
+        "value": "CUSTOM:CompoundV"
+      },
+      {
+        "value": "CUSTOM:Lithium"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:TayTotem"
+    },
+    "name": "taytotemrecipie",
+    "namespace": "mod"
+  }
+}

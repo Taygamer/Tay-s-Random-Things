@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "def",
+    "ghi"
+  ],
+  "key": {
+    "a": {
+      "item": "taysrandomthings:enraged_ancient_crystal"
+    },
+    "b": {
+      "item": "taysrandomthings:overcharged_endstone"
+    },
+    "c": {
+      "item": "taysrandomthings:enragedtemplate"
+    },
+    "d": {
+      "item": "taysrandomthings:gamefool_totem"
+    },
+    "e": {
+      "item": "taysrandomthings:ender_crystal"
+    },
+    "f": {
+      "item": "taysrandomthings:flop_totem"
+    },
+    "g": {
+      "item": "taysrandomthings:hydrophobic_template"
+    },
+    "h": {
+      "item": "taysrandomthings:compound_v"
+    },
+    "i": {
+      "item": "taysrandomthings:lithium"
+    }
+  },
+  "result": {
+    "item": "taysrandomthings:tay_totem",
+    "count": 1
+  }
+}
