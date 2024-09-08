@@ -1244,7 +1244,7 @@
           }
         ]
       },
-      "path": "~/Items"
+      "path": "~/Procedures"
     },
     {
       "name": "Tay",
@@ -1352,6 +1352,39 @@
         ]
       },
       "path": "~/Procedures"
+    },
+    {
+      "name": "TaysSwordLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tays_sword_living_entity_is_hit_with_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/taysrandomthings/procedures/TaysSwordLivingEntityIsHitWithToolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "TaysSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tays_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/taysrandomthings/item/TaysSwordItem.java",
+          "src/main/resources/assets/taysrandomthings/models/item/tays_sword.json"
+        ]
+      },
+      "path": "~/Items"
     }
   ],
   "variable_elements": [],
@@ -1372,6 +1405,7 @@
       "~CUSTOM:GamefoolsAxe"
     ],
     "ITEMS:minecraft:swords": [
+      "~CUSTOM:TaysSword",
       "~CUSTOM:EndScythe",
       "~CUSTOM:Enragedscythe",
       "~CUSTOM:FlopstersScythe"
@@ -1380,9 +1414,9 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "item.taysrandomthings.tay_spawn_egg": "Tay Spawn Egg",
-      "block.taysrandomthings.overcharged_endstone": "Overcharged Endstone",
       "item.tays.gamefool_spawn_egg": "AGamefool Spawn Egg",
+      "block.taysrandomthings.overcharged_endstone": "Overcharged Endstone",
+      "item.taysrandomthings.tay_spawn_egg": "Tay Spawn Egg",
       "advancements.go_flop.descr": "Obtain the Flopster Totem",
       "advancements.how.descr": "How did u obtain this",
       "item.tays.lithium": "Lithium",
@@ -1432,6 +1466,7 @@
       "advancements.go_fast.title": "Go Fast",
       "advancements.the_ancient_weapon.descr": "Obtain Flopsters Scythe",
       "advancements.go_fast.descr": "Obtain Compound V",
+      "item.taysrandomthings.tays_sword": "Tays Sword",
       "advancements.the_ancient_weapon.title": "The Ancient Weapon",
       "item.taysrandomthings.volcurren_armor_boots": "Volcurren Boots",
       "item.taysrandomthings.enragedscythe": "Enraged Scythe",

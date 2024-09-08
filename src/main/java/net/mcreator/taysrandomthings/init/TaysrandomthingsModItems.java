@@ -15,6 +15,7 @@ import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.taysrandomthings.item.VolcurrenIngotItem;
 import net.mcreator.taysrandomthings.item.VolcurrenArmorItem;
+import net.mcreator.taysrandomthings.item.TaysSwordItem;
 import net.mcreator.taysrandomthings.item.SuperVItem;
 import net.mcreator.taysrandomthings.item.LithiumItem;
 import net.mcreator.taysrandomthings.item.HydrophobicTemplateItem;
@@ -63,6 +64,7 @@ public class TaysrandomthingsModItems {
 	public static final RegistryObject<Item> AMETHYST_ARMOUR_ARMOR_CHESTPLATE = REGISTRY.register("amethyst_armour_armor_chestplate", () -> new Amethyst_ArmourArmorItem.Chestplate());
 	public static final RegistryObject<Item> AMETHYST_ARMOUR_ARMOR_LEGGINGS = REGISTRY.register("amethyst_armour_armor_leggings", () -> new Amethyst_ArmourArmorItem.Leggings());
 	public static final RegistryObject<Item> AMETHYST_ARMOUR_ARMOR_BOOTS = REGISTRY.register("amethyst_armour_armor_boots", () -> new Amethyst_ArmourArmorItem.Boots());
+	public static final RegistryObject<Item> TAYS_SWORD = REGISTRY.register("tays_sword", () -> new TaysSwordItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

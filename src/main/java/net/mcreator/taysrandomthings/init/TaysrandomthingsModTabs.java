@@ -43,6 +43,7 @@ public class TaysrandomthingsModTabs {
 				tabData.accept(TaysrandomthingsModItems.AMETHYST_ARMOUR_ARMOR_CHESTPLATE.get());
 				tabData.accept(TaysrandomthingsModItems.AMETHYST_ARMOUR_ARMOR_LEGGINGS.get());
 				tabData.accept(TaysrandomthingsModItems.AMETHYST_ARMOUR_ARMOR_BOOTS.get());
+				tabData.accept(TaysrandomthingsModItems.TAYS_SWORD.get());
 			})
 
 					.build());

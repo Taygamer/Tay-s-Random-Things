@@ -3,7 +3,7 @@
   "_type": "livingentity",
   "definition": {
     "mobName": "Tay",
-    "mobLabel": "",
+    "mobLabel": "Tay",
     "mobModelName": "Biped",
     "mobModelTexture": "d3e390cd9b65361e.png",
     "transparentModelCondition": {
@@ -36,9 +36,9 @@
       "falpha": 0.0
     },
     "creativeTabs": [],
-    "isBoss": false,
-    "bossBarColor": "PINK",
-    "bossBarType": "PROGRESS",
+    "isBoss": true,
+    "bossBarColor": "PURPLE",
+    "bossBarType": "NOTCHED_6",
     "equipmentMainHand": {
       "value": ""
     },
@@ -134,7 +134,7 @@
     "rangedAttackRadius": 10.0,
     "spawnThisMob": false,
     "doesDespawnWhenIdle": false,
-    "spawningProbability": 20,
+    "spawningProbability": 1,
     "mobSpawningType": "monster",
     "minNumberOfMobsPerGroup": 4,
     "maxNumberOfMobsPerGroup": 4,
